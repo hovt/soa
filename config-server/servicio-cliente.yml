@@ -1,17 +1,13 @@
 #Application Configuration
 server:
   port: 8092
-  
   error:
     include-message: always
     include-binding-errors: always
-
 # H2 Console en navegador:
 # http://localhost:8092/h2-console
 # Habilitando H2 Console
 spring:
-  application:
-    name: servicio-cliente
   h2:
     console:
       enabled: true

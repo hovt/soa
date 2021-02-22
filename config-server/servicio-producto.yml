@@ -8,8 +8,6 @@ server:
 # http://localhost:8091/h2-console
 # Habilitando H2 Console
 spring:
-  application:
-    name: servicio-producto
   h2:
     console:
       enabled: true
